@@ -1,4 +1,4 @@
-age = input("how old is you: ")
+age = input("How old are you: ")
 year= 2018
-year1 = (year - age)
-print("You born in %s"%(year1))
+your_birth = year - int(age)
+print("You born in %s" %your_birth)
