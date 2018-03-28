@@ -3,7 +3,7 @@ card_number = input("Please enter card number:")
 mm_yy = input("Please enter mm/yy:" )
 CVV = input ("Please enter CVV:" )
 try:
-    var = mon1 == int(mon)
+    var = mm_yy1 == int(mm_yy)
 except: #ValueError:
     print ("OK")
 if len(card_number) != 16:
