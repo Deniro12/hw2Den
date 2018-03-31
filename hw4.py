@@ -35,7 +35,11 @@ while True:
         except ValueError:
             print("Try again")
 while True:
-    CVV_number = input("Enter CVV number: ")
-    if len(CVV_number) == 3:
-        break
+     CVV_number = input("Enter CVV number: ")
+    try:
+        CVV_number = int(CVV_number)
+        if len(CVV_number) == 3:
+            print(CVV_number)
+    except:
+        pass
 print("Good job!!!")
